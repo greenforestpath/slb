@@ -1,6 +1,20 @@
-RULE 1 – ABSOLUTE (DO NOT EVER VIOLATE THIS)
+# AGENTS.md — slb (Slab/CLI)
 
-You may NOT delete any file or directory unless I explicitly give the exact command **in this session**.
+> **MANDATORY**: Read this file AND `CLAUDE.md` at session start. Re-read after any restart, compaction, or tool crash.
+>
+> **Also read**: `../AGENTS.md` for root CFWOS behavioral rules (meta-improvement obligation, tool guides, rehydration protocol).
+
+---
+
+## RULE 0 - HUMAN OVERRIDE
+
+If the user tells you to do something that conflicts with rules below, **the user wins**. They are in charge, not you.
+
+---
+
+## RULE 1 - NO FILE DELETION
+
+You may NOT delete any file or directory unless the user explicitly gives the exact command **in this session**.
 
 - This includes files you just created (tests, tmp files, scripts, etc.).
 - You do not get to decide that something is “safe” to remove.
